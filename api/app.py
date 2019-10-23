@@ -64,4 +64,4 @@ def guardarMedicion():
     #return(mediciones())
     return render_template('listarMediciones.html', mediciones=mediciones_list)
 
-app.run(port=8000,debug=True)
+

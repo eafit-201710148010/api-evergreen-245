@@ -18,4 +18,4 @@ def postOne():
     #return (Medicion.create(body))
     return medicion_obj.create(body)
 
-app.run(port=5000,debug=True)
+
